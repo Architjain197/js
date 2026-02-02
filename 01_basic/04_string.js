@@ -7,7 +7,7 @@ const LastName=" Jain"
 
 console.log(`first name ${FirstName} and last name is ${LastName}`)
 
-const gameName = new String('Cyclerun')
+const gameName = new String('Cyc-le-run')
 
 console.log(gameName[0])
 
@@ -32,6 +32,8 @@ const url="https://archit.com/hitesh%20jain"
 console.log(url)
 console.log(url.replace('%20','-'));
 
+console.log(url.includes('sundar'));
+console.log(typeof url)
 
-
+console.log(gameName.split('-'));
 
